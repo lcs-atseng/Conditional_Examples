@@ -14,7 +14,7 @@ import PlaygroundSupport
  
  */
 // Create canvas
-let canvas = Canvas(width: 400, height: 100)
+let canvas = Canvas(width: 450, height: 100)
 /*:
  ## Add your code below
  
