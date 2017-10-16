@@ -19,7 +19,7 @@ print("The hair colour generated was: \(hairColour)")
 if hairColour == "red" {
     print("My goodness, how handsome!")
 }
-
+else {print("Nice Color!")}
 //: **NOTE:** Output will show up in the Debug area.
 //:
 //: If you don't see this, press **Command-Shift-Y**.
