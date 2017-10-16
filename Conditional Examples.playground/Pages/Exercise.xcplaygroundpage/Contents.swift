@@ -14,7 +14,7 @@ import PlaygroundSupport
  
  */
 // Create canvas
-let canvas = Canvas(width: 450, height: 100)
+let canvas = Canvas(width: 500, height: 100)
 /*:
  ## Add your code below
  
@@ -28,12 +28,12 @@ for i in stride(from: 0, through: 400, by: 100){
     if randomValue == 1 {
         canvas.fillColor = Color.black
         canvas.textColor = Color.white
-        canvas.drawRectangle(centreX: i, centreY: 50, width: 100, height: 100)
+        canvas.drawRectangle(bottomLeftX: i, bottomLeftY: 0, width: 100, height: 100)
         canvas.drawText(message: "1", size: 30, x: i, y: 20)
     }else{
         canvas.fillColor = Color.white
         canvas.textColor = Color.black
-        canvas.drawRectangle(centreX: i, centreY: 50, width: 100, height: 100)
+        canvas.drawRectangle(bottomLeftX: i, bottomLeftY: 0, width: 100, height: 100)
         canvas.drawText(message: "2", size: 30, x: i, y: 20)
     }
     
